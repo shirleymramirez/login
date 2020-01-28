@@ -80,7 +80,7 @@ class Login extends Component {
         return (
             <Router>
                 <div className="wrapper">
-                    <div className="loginCard">
+                    <form className="loginCard">
                         <div className="loginForm">
                             <h1>LOG IN</h1>
                             <p className="loginInput">
@@ -105,7 +105,7 @@ class Login extends Component {
                             </p>
                             <input type="submit" value="login" onClick={this.logIn} className="logInButton" />
                         </div>
-                    </div>
+                    </form>
 
                 </div>
 
